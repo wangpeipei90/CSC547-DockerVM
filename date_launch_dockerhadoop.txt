@@ -1,0 +1,36 @@
+[root@vcla1-12 pwang7]# date;docker run -it sequenceiq/hadoop-docker:2.6.0 /etc/bootstrap.sh -bash
+Tue Apr 14 13:25:26 EDT 2015
+/
+Starting sshd:                                             [  OK  ]
+Starting namenodes on [f025e5485f08]
+f025e5485f08: starting namenode, logging to /usr/local/hadoop/logs/hadoop-root-namenode-f025e5485f08.out
+localhost: starting datanode, logging to /usr/local/hadoop/logs/hadoop-root-datanode-f025e5485f08.out
+Starting secondary namenodes [0.0.0.0]
+0.0.0.0: starting secondarynamenode, logging to /usr/local/hadoop/logs/hadoop-root-secondarynamenode-f025e5485f08.out
+starting yarn daemons
+starting resourcemanager, logging to /usr/local/hadoop/logs/yarn--resourcemanager-f025e5485f08.out
+localhost: starting nodemanager, logging to /usr/local/hadoop/logs/yarn-root-nodemanager-f025e5485f08.out
+bash-4.1# date
+Tue Apr 14 13:25:52 EDT 2015
+bash-4.1# exit
+exit
+da[root@vcla1-12 pwang7]# date
+Tue Apr 14 13:25:55 EDT 2015
+[root@vcla1-12 pwang7]# date;docker run -it sequenceiq/hadoop-docker:2.6.0 /etc/bootstrap.sh -bash
+Tue Apr 14 13:27:44 EDT 2015
+/
+Starting sshd:                                             [  OK  ]
+Starting namenodes on [b6b695f7a1bf]
+b6b695f7a1bf: starting namenode, logging to /usr/local/hadoop/logs/hadoop-root-namenode-b6b695f7a1bf.out
+localhost: starting datanode, logging to /usr/local/hadoop/logs/hadoop-root-datanode-b6b695f7a1bf.out
+Starting secondary namenodes [0.0.0.0]
+0.0.0.0: starting secondarynamenode, logging to /usr/local/hadoop/logs/hadoop-root-secondarynamenode-b6b695f7a1bf.out
+starting yarn daemons
+starting resourcemanager, logging to /usr/local/hadoop/logs/yarn--resourcemanager-b6b695f7a1bf.out
+localhost: starting nodemanager, logging to /usr/local/hadoop/logs/yarn-root-nodemanager-b6b695f7a1bf.out
+bash-4.1# date
+Tue Apr 14 13:28:16 EDT 2015
+bash-4.1# exit
+exit
+[root@vcla1-12 pwang7]# date
+Tue Apr 14 13:28:21 EDT 2015

@@ -1,0 +1,33 @@
+VM---Docker container :
+
+docker pull centos
+
+Image version: [root@a32520f068b0 /]# cat /etc/centos-release
+CentOS Linux release 7.1.1503 (Core) 
+
+
+[root@a32520f068b0 /]# uname -a 
+Linux a32520f068b0 2.6.32-504.12.2.el6.centos.plus.x86_64 #1 SMP Thu Mar 12 18:39:03 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+
+
+All Docker containers are using same Kernel of the Host
+
+docker pull sequenceiq/hadoop-docker:2.6.0
+	with centos-6.5
+
+
+
+
+To do experiment, we need to shut down all current VMs and other unrelated user program or process
+
+
+
+
+
+
+
+
+
+VM---VM:0
+uname -a
+Linux localhost.localdomain 3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 X86_64 X86_64 X86_64 GNU/Linux

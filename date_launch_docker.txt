@@ -1,0 +1,24 @@
+date; docker run -it sequenceiq/hadoop-docker:2.6.0 /bin/bash
+Tue Apr 14 13:12:22 EDT 2015
+bash-4.1# date
+Tue Apr 14 13:12:28 EDT 2015
+bash-4.1# exit
+exit
+d[root@vcla1-12 pwang7]# date
+Tue Apr 14 13:12:30 EDT 2015
+[root@vcla1-12 pwang7]# date; docker run -it sequenceiq/hadoop-docker:2.6.0 /bin/bash
+Tue Apr 14 13:16:05 EDT 2015
+bash-4.1# date
+Tue Apr 14 13:16:12 EDT 2015
+bash-4.1# exit
+exit
+[root@vcla1-12 pwang7]# date
+Tue Apr 14 13:16:17 EDT 2015
+[root@vcla1-12 pwang7]# date; docker run -it sequenceiq/hadoop-docker:2.6.0 /bin/bash
+Tue Apr 14 13:18:34 EDT 2015
+bash-4.1# date
+Tue Apr 14 13:18:37 EDT 2015
+bash-4.1# exit
+exit
+[root@vcla1-12 pwang7]# date
+Tue Apr 14 13:18:46 EDT 2015

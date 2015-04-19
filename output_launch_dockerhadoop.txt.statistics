@@ -1,0 +1,105 @@
+[1] "output_launch_dockerhadoop.br0.net.rxkb.dat"
+[1] 0.9583333 0.8470000 0.8843333
+[1] 2.46 1.47 1.27
+[1] "output_launch_dockerhadoop.br0.net.rxpck.dat"
+[1] 11.45067 10.41567 11.16133
+[1] 24.50 18.81 16.00
+[1] "output_launch_dockerhadoop.br0.net.txkb.dat"
+[1] 1.420667 1.571667 1.537000
+[1] 2.47 2.42 2.22
+[1] "output_launch_dockerhadoop.br0.net.txpck.dat"
+[1] 8.197333 9.184667 8.992667
+[1] 15.58 15.58 13.50
+[1] "output_launch_dockerhadoop.cpu.busy.dat"
+[1] 11.121 10.061 10.856
+[1] 46.65 45.12 55.58
+[1] "output_launch_dockerhadoop.cpu.idle.dat"
+[1] 88.879 89.939 89.144
+[1]  99.94 100.00  99.94
+[1] "output_launch_dockerhadoop.cpu.iowait.dat"
+[1] 1.1246667 0.8473333 0.9306667
+[1] 9.39 8.39 6.45
+[1] "output_launch_dockerhadoop.cpu.system.dat"
+[1] 0.6810000 0.6440000 0.6776667
+[1] 3.01 2.89 2.95
+[1] "output_launch_dockerhadoop.cpu.user.dat"
+[1] 9.314000 8.567333 9.246667
+[1] 44.21 43.62 53.38
+[1] "output_launch_dockerhadoop.disk.brdps.dat"
+[1] 3.059162e+17 3.074457e+17 3.074457e+17
+[1] 9.177485e+18 9.223372e+18 9.223372e+18
+[1] "output_launch_dockerhadoop.disk.bwrps.dat"
+[1] 3.059162e+17 3.074457e+17 3.074457e+17
+[1] 9.177485e+18 9.223372e+18 9.223372e+18
+[1] "output_launch_dockerhadoop.disk.rtps.dat"
+[1] 3.059162e+17 3.074457e+17 3.074457e+17
+[1] 9.177485e+18 9.223372e+18 9.223372e+18
+[1] "output_launch_dockerhadoop.disk.tps.dat"
+[1] 3.059162e+17 3.074457e+17 3.074457e+17
+[1] 9.177485e+18 9.223372e+18 9.223372e+18
+[1] "output_launch_dockerhadoop.disk.wtps.dat"
+[1] 3.059162e+17 3.074457e+17 3.074457e+17
+[1] 9.177485e+18 9.223372e+18 9.223372e+18
+[1] "output_launch_dockerhadoop.docker0.net.rxkb.dat"
+[1] 0.02533333 0.02466667 0.02533333
+[1] 0.19 0.16 0.16
+[1] "output_launch_dockerhadoop.docker0.net.rxpck.dat"
+[1] 0.4176667 0.4010000 0.4176667
+[1] 3.02 2.51 2.51
+[1] "output_launch_dockerhadoop.docker0.net.txkb.dat"
+[1] 0.03533333 0.03133333 0.03566667
+[1] 0.34 0.28 0.28
+[1] "output_launch_dockerhadoop.docker0.net.txpck.dat"
+[1] 0.3340000 0.3006667 0.3336667
+[1] 3.02 2.51 2.51
+[1] "output_launch_dockerhadoop.eth0.net.rxkb.dat"
+[1] 0.4416667 0.2216667 0.1540000
+[1] 0.86 0.49 0.41
+[1] "output_launch_dockerhadoop.eth0.net.rxmcst.dat"
+[1] 0.01666667 0.01666667 0.01666667
+[1] 0.5 0.5 0.5
+[1] "output_launch_dockerhadoop.eth0.net.rxpck.dat"
+[1] 4.939000 2.489000 1.802333
+[1] 8.50 5.56 4.95
+[1] "output_launch_dockerhadoop.eth0.net.txkb.dat"
+[1] 0.008 0.008 0.008
+[1] 0.04 0.04 0.04
+[1] "output_launch_dockerhadoop.eth0.net.txpck.dat"
+[1] 0.1000000 0.1003333 0.1003333
+[1] 0.50 0.51 0.51
+[1] "output_launch_dockerhadoop.eth1.net.rxkb.dat"
+[1] 1.185000 1.053000 1.104333
+[1] 3.14 1.80 1.58
+[1] "output_launch_dockerhadoop.eth1.net.rxmcst.dat"
+[1] 3.321667 3.036000 2.919667
+[1] 10.50  8.91  5.00
+[1] "output_launch_dockerhadoop.eth1.net.rxpck.dat"
+[1] 11.55033 10.51533 11.24600
+[1] 24.50 18.81 15.50
+[1] "output_launch_dockerhadoop.eth1.net.txkb.dat"
+[1] 1.455667 1.610333 1.573000
+[1] 2.54 2.58 2.27
+[1] "output_launch_dockerhadoop.eth1.net.txpck.dat"
+[1] 8.213667 9.202333 9.010333
+[1] 15.58 15.74 13.50
+[1] "output_launch_dockerhadoop.mem.commit.dat"
+[1] 9.239000 6.957000 8.946667
+[1] 19.96 18.91 20.03
+[1] "output_launch_dockerhadoop.mem.kbbuffers.dat"
+[1] 219046.5 218440.0 218987.2
+[1] 220760 220680 220820
+[1] "output_launch_dockerhadoop.mem.kbcached.dat"
+[1] 4155076 4147423 4165228
+[1] 4195472 4198480 4207668
+[1] "output_launch_dockerhadoop.mem.kbcommit.dat"
+[1] 1508890 1136460 1461156
+[1] 3260272 3088272 3271736
+[1] "output_launch_dockerhadoop.mem.kbmemfree.dat"
+[1] 11184195 11338355 11198994
+[1] 11571796 11564676 11555980
+[1] "output_launch_dockerhadoop.mem.kbmemused.dat"
+[1] 5147265 4993105 5132466
+[1] 5808468 5725972 5819944
+[1] "output_launch_dockerhadoop.mem.memused.dat"
+[1] 31.51700 30.57300 31.42667
+[1] 35.57 35.06 35.64

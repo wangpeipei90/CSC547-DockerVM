@@ -1,0 +1,572 @@
+Linux 2.6.32-504.12.2.el6.centos.plus.x86_64 (vcla1-12.hpc.ncsu.edu) 	04/14/2015 	_x86_64_	(8 CPU)
+
+01:25:20 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:22 PM     all      0.06      0.00      0.06      0.06      0.00     99.81
+
+01:25:20 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:22 PM      2.50      0.00      2.50      0.00     60.00
+
+01:25:20 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:22 PM  11564428   4767032     29.19    216996   4112372    511384      3.13
+
+01:25:20 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:22 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:22 PM      eth0      3.50      0.00      0.30      0.00      0.00      0.00      0.00
+01:25:22 PM      eth1     10.50     11.00      1.05      1.86      0.00      0.00      2.50
+01:25:22 PM       br0     10.50     10.00      0.85      1.74      0.00      0.00      0.00
+01:25:22 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:22 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:22 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:25:22 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:24 PM     all      0.06      0.00      0.06      0.00      0.00     99.88
+
+01:25:22 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:24 PM      0.00      0.00      0.00      0.00      0.00
+
+01:25:22 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:24 PM  11564676   4766784     29.19    216996   4112376    511216      3.13
+
+01:25:22 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:24 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:24 PM      eth0      3.50      0.50      0.31      0.04      0.00      0.00      0.00
+01:25:24 PM      eth1      8.50      5.50      0.73      1.00      0.00      0.00      2.50
+01:25:24 PM       br0      8.50      6.50      0.66      1.39      0.00      0.00      0.00
+01:25:24 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:24 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:24 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:25:24 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:26 PM     all      0.06      0.00      0.00      0.00      0.00     99.94
+
+01:25:24 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:26 PM      0.00      0.00      0.00      0.00      0.00
+
+01:25:24 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:26 PM  11564048   4767412     29.19    216996   4112376    511384      3.13
+
+01:25:24 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:26 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:26 PM      eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:26 PM      eth1      5.50      5.50      0.54      0.93      0.00      0.00      2.00
+01:25:26 PM       br0      5.00      5.50      0.35      0.64      0.00      0.00      0.00
+01:25:26 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:26 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:26 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:25:26 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:28 PM     all      5.65      0.00      2.89      4.52      0.00     86.94
+
+01:25:26 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:28 PM   3459.39   3358.38    101.02 108783.76   2627.41
+
+01:25:26 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:28 PM  11464156   4867304     29.80    220080   4161288    940952      5.76
+
+01:25:26 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:28 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:28 PM      eth0      2.54      0.00      0.22      0.00      0.00      0.00      0.00
+01:25:28 PM      eth1     11.17     15.74      1.07      2.58      0.00      0.00      2.03
+01:25:28 PM       br0     11.17     14.72      0.88      2.36      0.00      0.00      0.00
+01:25:28 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:28 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:28 PM   docker0      0.51      0.00      0.04      0.00      0.00      0.00      0.00
+01:25:28 PM veth81fcbfb      1.02      1.02      0.08      0.08      0.00      0.00      0.00
+
+01:25:28 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:30 PM     all     20.25      0.00      1.44      0.12      0.00     78.19
+
+01:25:28 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:30 PM    410.00    407.00      3.00  11336.00     60.00
+
+01:25:28 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:30 PM  11437964   4893496     29.96    220100   4167592    947792      5.80
+
+01:25:28 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:30 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:30 PM      eth0      3.00      0.00      0.24      0.00      0.00      0.00      0.00
+01:25:30 PM      eth1     10.50     12.00      1.27      2.11      0.00      0.00      3.00
+01:25:30 PM       br0      9.50     12.00      0.77      2.07      0.00      0.00      0.00
+01:25:30 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:30 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:30 PM   docker0      0.50      0.00      0.03      0.00      0.00      0.00      0.00
+01:25:30 PM veth81fcbfb      0.50      0.50      0.03      0.03      0.00      0.00      0.00
+
+01:25:30 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:32 PM     all     23.17      0.00      1.31      1.75      0.00     73.76
+
+01:25:30 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:32 PM    911.50    764.00    147.50  23384.00   2352.00
+
+01:25:30 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:32 PM  11327676   5003784     30.64    220172   4179392   1028960      6.30
+
+01:25:30 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:32 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:32 PM      eth0      0.50      0.00      0.03      0.00      0.00      0.00      0.00
+01:25:32 PM      eth1     11.00     10.50      1.11      1.83      0.00      0.00      3.00
+01:25:32 PM       br0     11.00     10.50      0.92      1.79      0.00      0.00      0.00
+01:25:32 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:32 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:32 PM   docker0      2.00      1.50      0.12      0.13      0.00      0.00      0.00
+01:25:32 PM veth81fcbfb      2.00      1.50      0.14      0.13      0.00      0.00      0.00
+
+01:25:32 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:34 PM     all     15.03      0.00      1.38      3.69      0.00     79.90
+
+01:25:32 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:34 PM    782.00    444.50    337.50  13600.00   4104.00
+
+01:25:32 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:34 PM  11234624   5096836     31.21    220212   4188476   1428124      8.74
+
+01:25:32 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:34 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:34 PM      eth0      1.00      0.50      0.09      0.04      0.00      0.00      0.00
+01:25:34 PM      eth1     11.00     10.50      1.11      1.89      0.00      0.00      3.00
+01:25:34 PM       br0     11.00     10.50      0.92      1.84      0.00      0.00      0.00
+01:25:34 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:34 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:34 PM   docker0      0.50      0.00      0.03      0.00      0.00      0.00      0.00
+01:25:34 PM veth81fcbfb      0.50      0.50      0.03      0.03      0.00      0.00      0.00
+
+01:25:34 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:36 PM     all     24.41      0.00      0.81      0.00      0.00     74.78
+
+01:25:34 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:36 PM     89.00     89.00      0.00   2520.00      0.00
+
+01:25:34 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:36 PM  11155164   5176296     31.70    220236   4189844   1521932      9.32
+
+01:25:34 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:36 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:36 PM      eth0      1.00      0.00      0.10      0.00      0.00      0.00      0.00
+01:25:36 PM      eth1     10.00     10.00      1.01      1.79      0.00      0.00      2.00
+01:25:36 PM       br0     10.00     10.50      0.84      1.79      0.00      0.00      0.00
+01:25:36 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:36 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:36 PM   docker0      1.50      1.50      0.08      0.13      0.00      0.00      0.00
+01:25:36 PM veth81fcbfb      1.50      2.00      0.10      0.18      0.00      0.00      0.00
+
+01:25:36 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:38 PM     all     16.96      0.00      1.00      2.69      0.00     79.35
+
+01:25:36 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:38 PM    141.71     71.36     70.35   1342.71    948.74
+
+01:25:36 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:38 PM  11072024   5259436     32.20    220300   4190456   1896408     11.61
+
+01:25:36 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:38 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:38 PM      eth0      2.51      0.00      0.18      0.00      0.00      0.00      0.00
+01:25:38 PM      eth1      7.04      6.03      0.58      1.00      0.00      0.00      2.01
+01:25:38 PM       br0      7.54      6.53      0.56      1.36      0.00      0.00      0.00
+01:25:38 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:38 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:38 PM   docker0      0.50      0.00      0.03      0.00      0.00      0.00      0.00
+01:25:38 PM veth81fcbfb      0.50      0.50      0.03      0.03      0.00      0.00      0.00
+
+01:25:38 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:40 PM     all     14.45      0.00      0.88      0.00      0.00     84.68
+
+01:25:38 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:40 PM      0.00      0.00      0.00      0.00      0.00
+
+01:25:38 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:40 PM  11083648   5247812     32.13    220300   4190464   1899160     11.63
+
+01:25:38 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:40 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:40 PM      eth0      3.52      0.00      0.41      0.00      0.00      0.00      0.00
+01:25:40 PM      eth1     14.07      8.54      1.44      1.29      0.00      0.00      5.03
+01:25:40 PM       br0     13.57      7.54      1.10      0.84      0.00      0.00      0.00
+01:25:40 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:40 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:40 PM   docker0      2.51      2.51      0.16      0.28      0.00      0.00      0.00
+01:25:40 PM veth81fcbfb      2.51      2.51      0.20      0.28      0.00      0.00      0.00
+
+01:25:40 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:42 PM     all     21.03      0.00      0.81      2.13      0.00     76.03
+
+01:25:40 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:42 PM    127.23     80.69     46.53    958.42    788.12
+
+01:25:40 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:42 PM  10989344   5342116     32.71    220316   4190660   1975656     12.10
+
+01:25:40 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:42 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:42 PM      eth0      2.97      0.00      0.28      0.00      0.00      0.00      0.00
+01:25:42 PM      eth1     18.81      9.90      1.80      1.77      0.00      0.00      8.91
+01:25:42 PM       br0     18.81      9.90      1.47      1.73      0.00      0.00      0.00
+01:25:42 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:42 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:42 PM   docker0      0.50      0.50      0.03      0.06      0.00      0.00      0.00
+01:25:42 PM veth81fcbfb      0.50      0.50      0.04      0.06      0.00      0.00      0.00
+
+01:25:42 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:44 PM     all     10.45      0.00      1.00      0.13      0.00     88.42
+
+01:25:42 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:44 PM      8.59      6.06      2.53     48.48     48.48
+
+01:25:42 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:44 PM  10930596   5400864     33.07    220336   4190960   2341500     14.34
+
+01:25:42 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:44 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:44 PM      eth0      5.56      0.51      0.42      0.04      0.00      0.00      0.00
+01:25:44 PM      eth1     14.14     10.61      1.38      1.87      0.00      0.00      5.05
+01:25:44 PM       br0     14.14     10.61      1.13      1.83      0.00      0.00      0.00
+01:25:44 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:44 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:44 PM   docker0      0.51      0.51      0.03      0.06      0.00      0.00      0.00
+01:25:44 PM veth81fcbfb      0.51      0.51      0.04      0.06      0.00      0.00      0.00
+
+01:25:44 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:46 PM     all     21.20      0.00      0.94      0.00      0.00     77.86
+
+01:25:44 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:46 PM      0.00      0.00      0.00      0.00      0.00
+
+01:25:44 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:46 PM  10906856   5424604     33.22    220336   4190988   2338156     14.32
+
+01:25:44 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:46 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:46 PM      eth0      2.50      0.00      0.29      0.00      0.00      0.00      0.00
+01:25:46 PM      eth1      9.50      9.50      0.94      1.75      0.00      0.00      2.00
+01:25:46 PM       br0      9.50      9.50      0.77      1.71      0.00      0.00      0.00
+01:25:46 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:46 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:46 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:46 PM veth81fcbfb      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:25:46 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:48 PM     all     26.58      0.00      2.00      1.06      0.00     70.36
+
+01:25:46 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:48 PM    138.69     94.97     43.72   2186.93    603.02
+
+01:25:46 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:48 PM  10833196   5498264     33.67    220352   4192024   2727100     16.70
+
+01:25:46 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:48 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:48 PM      eth0      1.51      0.00      0.13      0.00      0.00      0.00      0.00
+01:25:48 PM      eth1      9.55      7.54      0.87      1.59      0.00      0.00      2.51
+01:25:48 PM       br0     10.55      8.54      0.81      1.65      0.00      0.00      0.00
+01:25:48 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:48 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:48 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:48 PM veth81fcbfb      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:25:48 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:50 PM     all     43.62      0.00      1.50      0.00      0.00     54.88
+
+01:25:48 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:50 PM    300.00    300.00      0.00   8888.00      0.00
+
+01:25:48 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:50 PM  10659436   5672024     34.73    220512   4195824   3066368     18.78
+
+01:25:48 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:50 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:50 PM      eth0      4.00      0.00      0.46      0.00      0.00      0.00      0.00
+01:25:50 PM      eth1     15.00     10.00      1.44      1.08      0.00      0.00      4.50
+01:25:50 PM       br0     14.50      9.50      1.17      1.39      0.00      0.00      0.00
+01:25:50 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:50 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:50 PM   docker0      2.00      2.00      0.13      0.22      0.00      0.00      0.00
+01:25:50 PM veth81fcbfb      2.00      2.00      0.16      0.22      0.00      0.00      0.00
+
+01:25:50 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:52 PM     all     12.82      0.00      0.63      0.00      0.00     86.55
+
+01:25:50 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:52 PM    154.00    154.00      0.00   4192.00      0.00
+
+01:25:50 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:52 PM  10605488   5725972     35.06    220680   4198480   3088272     18.91
+
+01:25:50 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:52 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:52 PM      eth0      1.50      0.00      0.15      0.00      0.00      0.00      0.00
+01:25:52 PM      eth1     11.50      9.00      1.20      1.69      0.00      0.00      2.50
+01:25:52 PM       br0     11.00      8.50      0.90      1.21      0.00      0.00      0.00
+01:25:52 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:52 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:52 PM   docker0      1.00      0.50      0.06      0.06      0.00      0.00      0.00
+01:25:52 PM veth81fcbfb      1.00      0.50      0.08      0.06      0.00      0.00      0.00
+
+01:25:52 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:54 PM     all      0.38      0.00      1.69      8.39      0.00     89.54
+
+01:25:52 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:54 PM    468.84     26.13    442.71   3071.36   9833.17
+
+01:25:52 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:54 PM  11546368   4785092     29.30    217020   4118208    578940      3.54
+
+01:25:52 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:54 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:54 PM      eth0      3.52      0.50      0.27      0.04      0.00      0.00      0.00
+01:25:54 PM      eth1     16.58     15.08      1.58      2.43      0.00      0.00      2.01
+01:25:54 PM       br0     17.59     15.58      1.36      2.42      0.00      0.00      0.00
+01:25:54 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:54 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:54 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:25:54 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:56 PM     all      0.12      0.00      0.19      0.00      0.00     99.69
+
+01:25:54 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:56 PM 9223372036854772736.00 9223372036854772736.00 9223372036854775808.00 9223372036854689792.00 9223372036854772736.00
+
+01:25:54 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:56 PM  11551892   4779568     29.27    217020   4118512    521628      3.19
+
+01:25:54 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:56 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:56 PM      eth0      0.50      0.00      0.03      0.00      0.00      0.00      0.00
+01:25:56 PM      eth1     14.00     13.50      1.37      2.31      0.00      0.00      2.50
+01:25:56 PM       br0     13.00     13.00      1.05      2.20      0.00      0.00      0.00
+01:25:56 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:56 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:56 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:25:56 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:25:58 PM     all      0.00      0.00      0.13      0.19      0.00     99.69
+
+01:25:56 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:25:58 PM      4.50      0.00      4.50      0.00    124.00
+
+01:25:56 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:25:58 PM  11552532   4778928     29.26    217020   4118512    521460      3.19
+
+01:25:56 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:25:58 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:58 PM      eth0      1.00      0.00      0.10      0.00      0.00      0.00      0.00
+01:25:58 PM      eth1     10.50      9.50      1.20      1.75      0.00      0.00      3.50
+01:25:58 PM       br0     10.50      9.50      1.01      1.71      0.00      0.00      0.00
+01:25:58 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:58 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:25:58 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:25:58 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:00 PM     all      0.12      0.00      0.06      0.00      0.00     99.81
+
+01:25:58 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:00 PM      0.00      0.00      0.00      0.00      0.00
+
+01:25:58 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:00 PM  11553072   4778388     29.26    217020   4118516    521628      3.19
+
+01:25:58 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:00 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:00 PM      eth0      2.51      0.00      0.23      0.00      0.00      0.00      0.00
+01:26:00 PM      eth1      9.55      9.55      1.24      1.76      0.00      0.00      3.52
+01:26:00 PM       br0      8.54      9.55      0.75      1.72      0.00      0.00      0.00
+01:26:00 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:00 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:00 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:00 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:02 PM     all      0.06      0.00      0.06      0.12      0.00     99.75
+
+01:26:00 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:02 PM      3.98      0.00      3.98      0.00     63.68
+
+01:26:00 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:02 PM  11553812   4777648     29.25    217020   4118520    521628      3.19
+
+01:26:00 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:02 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:02 PM      eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:02 PM      eth1      7.96      5.97      0.77      1.30      0.00      0.00      2.49
+01:26:02 PM       br0      8.96      8.46      0.74      1.57      0.00      0.00      0.00
+01:26:02 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:02 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:02 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:02 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:04 PM     all      0.06      0.00      0.06      0.00      0.00     99.87
+
+01:26:02 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:04 PM      0.00      0.00      0.00      0.00      0.00
+
+01:26:02 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:04 PM  11554632   4776828     29.25    217020   4118524    521460      3.19
+
+01:26:02 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:04 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:04 PM      eth0      3.52      0.50      0.27      0.04      0.00      0.00      0.00
+01:26:04 PM      eth1      8.04      7.54      0.79      1.26      0.00      0.00      2.51
+01:26:04 PM       br0      7.54      6.53      0.63      1.38      0.00      0.00      0.00
+01:26:04 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:04 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:04 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:04 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:06 PM     all      0.00      0.00      0.00      0.00      0.00    100.00
+
+01:26:04 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:06 PM      0.00      0.00      0.00      0.00      0.00
+
+01:26:04 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:06 PM  11554492   4776968     29.25    217020   4118528    521628      3.19
+
+01:26:04 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:06 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:06 PM      eth0      2.99      0.00      0.24      0.00      0.00      0.00      0.00
+01:26:06 PM      eth1      5.97      5.47      0.57      0.93      0.00      0.00      1.99
+01:26:06 PM       br0      5.97      3.98      0.40      0.46      0.00      0.00      0.00
+01:26:06 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:06 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:06 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:06 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:08 PM     all      0.06      0.00      0.06      0.13      0.00     99.75
+
+01:26:06 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:08 PM     12.56      0.00     12.56      0.00    144.72
+
+01:26:06 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:08 PM  11555408   4776052     29.24    217020   4118532    521460      3.19
+
+01:26:06 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:08 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:08 PM      eth0      2.51      0.00      0.18      0.00      0.00      0.00      0.50
+01:26:08 PM      eth1     10.55      9.55      1.03      1.76      0.00      0.00      3.02
+01:26:08 PM       br0     10.05      9.55      0.83      1.72      0.00      0.00      0.00
+01:26:08 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:08 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:08 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:08 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:10 PM     all      0.12      0.00      0.06      0.00      0.00     99.81
+
+01:26:08 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:10 PM      0.00      0.00      0.00      0.00      0.00
+
+01:26:08 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:10 PM  11555568   4775892     29.24    217020   4118540    521628      3.19
+
+01:26:08 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:10 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:10 PM      eth0      1.99      0.00      0.18      0.00      0.00      0.00      0.00
+01:26:10 PM      eth1      7.96      9.45      0.83      1.74      0.00      0.00      1.99
+01:26:10 PM       br0      7.96      9.45      0.69      1.70      0.00      0.00      0.00
+01:26:10 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:10 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:10 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:10 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:12 PM     all      0.06      0.00      0.06      0.06      0.00     99.81
+
+01:26:10 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:12 PM      3.02      0.00      3.02      0.00     52.26
+
+01:26:10 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:12 PM  11555568   4775892     29.24    217020   4118536    521628      3.19
+
+01:26:10 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:12 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:12 PM      eth0      4.02      0.00      0.49      0.00      0.00      0.00      0.00
+01:26:12 PM      eth1     10.55      9.55      1.03      1.76      0.00      0.00      2.51
+01:26:12 PM       br0     10.05      9.55      0.83      1.72      0.00      0.00      0.00
+01:26:12 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:12 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:12 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:12 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:14 PM     all      0.06      0.00      0.06      0.00      0.00     99.87
+
+01:26:12 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:14 PM      0.00      0.00      0.00      0.00      0.00
+
+01:26:12 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:14 PM  11556020   4775440     29.24    217020   4118536    521628      3.19
+
+01:26:12 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:14 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:14 PM      eth0      2.01      0.50      0.18      0.04      0.00      0.00      0.00
+01:26:14 PM      eth1     10.05      9.05      1.08      1.72      0.00      0.00      3.52
+01:26:14 PM       br0     10.55      9.55      0.93      1.72      0.00      0.00      0.00
+01:26:14 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:14 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:14 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:14 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:16 PM     all      0.06      0.00      0.06      0.38      0.00     99.50
+
+01:26:14 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:16 PM      5.47      0.00      5.47      0.00     79.60
+
+01:26:14 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:16 PM  11556052   4775408     29.24    217020   4118544    521460      3.19
+
+01:26:14 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:16 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:16 PM      eth0      4.98      0.00      0.44      0.00      0.00      0.00      0.00
+01:26:16 PM      eth1      9.45      5.47      0.90      0.92      0.00      0.00      3.98
+01:26:16 PM       br0      9.95      5.97      0.84      1.28      0.00      0.00      0.00
+01:26:16 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:16 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:16 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:16 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:18 PM     all      0.06      0.00      0.06      0.00      0.00     99.88
+
+01:26:16 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:18 PM      0.00      0.00      0.00      0.00      0.00
+
+01:26:16 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:18 PM  11555828   4775632     29.24    217020   4118548    521628      3.19
+
+01:26:16 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:18 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:18 PM      eth0      2.49      0.00      0.19      0.00      0.00      0.00      0.00
+01:26:18 PM      eth1      5.97      4.98      0.62      0.89      0.00      0.00      2.49
+01:26:18 PM       br0      4.98      3.98      0.39      0.46      0.00      0.00      0.00
+01:26:18 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:18 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:18 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+01:26:18 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+01:26:20 PM     all      0.06      0.00      0.06      0.00      0.00     99.87
+
+01:26:18 PM       tps      rtps      wtps   bread/s   bwrtn/s
+01:26:20 PM      0.00      0.00      0.00      0.00      0.00
+
+01:26:18 PM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+01:26:20 PM  11556076   4775384     29.24    217020   4118548    521628      3.19
+
+01:26:18 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+01:26:20 PM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:20 PM      eth0      3.52      0.00      0.24      0.00      0.00      0.00      0.00
+01:26:20 PM      eth1     10.55      9.55      1.04      1.75      0.00      0.00      2.51
+01:26:20 PM       br0     10.55     10.05      0.86      1.75      0.00      0.00      0.00
+01:26:20 PM    virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:20 PM virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+01:26:20 PM   docker0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:        CPU     %user     %nice   %system   %iowait    %steal     %idle
+Average:        all      8.57      0.00      0.64      0.85      0.00     89.94
+
+Average:          tps      rtps      wtps   bread/s   bwrtn/s
+Average:       127.89    100.70     27.19   3094.09    614.69
+
+Average:    kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+Average:     11338355   4993105     30.57    218440   4147423   1136460      6.96
+
+Average:        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+Average:           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         eth0      2.49      0.10      0.22      0.01      0.00      0.00      0.02
+Average:         eth1     10.51      9.20      1.05      1.61      0.00      0.00      3.04
+Average:          br0     10.41      9.18      0.85      1.57      0.00      0.00      0.00
+Average:       virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:      docker0      0.40      0.30      0.02      0.03      0.00      0.00      0.00
