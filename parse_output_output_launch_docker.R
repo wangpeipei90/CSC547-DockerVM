@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 old=getwd();
-basedir="/home/peipei/course/CSC547/experiment_docker_hadoop";
+basedir="/home/peipei/course/CSC547/experiment_docker_hadoop/output_launch_docker";
 setwd(basedir);
 
 #file_patterns=c("output_empty.txt.*.dat$","output_empty_2.txt.*.dat$","output_empty_3.txt.*.dat$")
@@ -73,3 +73,5 @@ print(null_metric);
 output_launch_docker_null_metric=null_metric;
 output_launch_docker_metrics=metrics;
 setwd(old);
+
+XC_docker=XC;
