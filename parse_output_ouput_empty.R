@@ -73,6 +73,8 @@ for(col_num in 1:length(X)){
   lines(x=x_axis,y=value2,col="green",lty=2);
   points(x=x_axis,y=value3,type="p",pch=24,cex=0.4,xlab="time(seconds)",ylab="experiment3",col="black");
   lines(x=x_axis,y=value3,col="blue",lty=2);
+ 
+  legend("topright", legend=c("Sample1","Sample2","Sample3","Average"),lwd=1,lty=c(2,2,2,2,1),col=c("red","green","blue","black"))
   dev.off();
 }
 
