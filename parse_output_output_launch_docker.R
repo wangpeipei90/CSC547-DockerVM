@@ -59,14 +59,18 @@ for(col_num in 1:length(X)){
   png(paste(getwd(),paste(name,"png",sep="."),sep="/"));
  # print(average)
  # print(value1)
-  plot(x=x_axis,y=average,ylim=c(v_min,v_max),type="p",pch=4,cex=0.4,xlab="time(seconds)",ylab=name1,col="black");
+  plot(x=x_axis,y=NULL,ylim=c(v_min,v_max),type="n",main="Overhead of launching Docker container",xlab="time(seconds)",ylab=metrics_meaning[[name1]],col="black");
+ 
+  points(x=x_axis,y=average,type="p",pch=4,cex=0.4,col="black");
   lines(x=x_axis,y=average,col="black",lwd=2);
-  points(x=x_axis,y=average,type="p",pch=3,cex=0.4,xlab="time(seconds)",ylab="experiment1",col="black");
+  points(x=x_axis,y=average,type="p",pch=3,cex=0.4,col="black");
   lines(x=x_axis,y=value1,col="red",lty=2);
-  points(x=x_axis,y=value2,type="p",pch=8,cex=0.4,xlab="time(seconds)",ylab="experiment2",col="black");
+  points(x=x_axis,y=value2,type="p",pch=8,cex=0.4,col="black");
   lines(x=x_axis,y=value2,col="green",lty=2);
-  points(x=x_axis,y=value3,type="p",pch=24,cex=0.4,xlab="time(seconds)",ylab="experiment3",col="black");
+  points(x=x_axis,y=value3,type="p",pch=24,cex=0.4,col="black");
   lines(x=x_axis,y=value3,col="blue",lty=2);
+ 
+  legend("top",horiz=TRUE,legend=c("Sample1","Sample2","Sample3","Average"),lwd=1,lty=c(2,2,2,1),col=c("red","green","blue","black"));
   dev.off();
 }
 print(null_metric);

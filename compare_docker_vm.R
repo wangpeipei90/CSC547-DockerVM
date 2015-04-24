@@ -20,7 +20,7 @@ sample=1;
 x_cpu=as.vector(XC_vm[[sample]][[cnames_vm_cpu[sample]]]);
 y_mem=as.vector(XC_vm[[sample]][[cnames_vm_mem[sample]]]);
 
-plot(x=NULL,y=NULL,xlab="CPU usage(%)",ylab="Mem usage(%)",xlim=range(0:26),ylim=range(28:34));
+plot(x=NULL,y=NULL,mai="Overhead comparision of launching Docker container and VM",xlab="Percentage of CPU usage(%)",ylab="Percentage of MEM usage(%)",xlim=range(0:26),ylim=range(28:34));
 points(x_cpu,y_mem,type="p",pch=8,cex=0.4,col="blue");
 
 sample=2;
@@ -54,6 +54,6 @@ points(x_cpu,y_mem,type="p",pch=3,cex=0.4,col="red");
 legend(1,-1,c("group A", "group B"), pch = c(1,2), lty = c(1,2))
 
 #legend(x=1,y=-1,legend=c("docker", "vm"),pch=3,cex=.8,col=c("red", "blue"));
-legend("topright", legend=c("docker","vm"), pch=c(3,8), col=c("red","blue"))
+legend("top",horiz=TRUE,legend=c("docker","vm"), pch=c(3,8), col=c("red","blue"))
 dev.off();
 setwd(old);

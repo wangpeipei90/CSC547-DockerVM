@@ -2,8 +2,6 @@ old=getwd();
 basedir="/home/peipei/course/CSC547/experiment_docker_hadoop";
 setwd(basedir);
 
-
-
 t4=output_launch_dockerhadoopprogram_null_metric;
 t3=output_launch_dockerhadoop_null_metric;
 t2=output_launch_docker_null_metric;
