@@ -1,10 +1,9 @@
 #!/usr/bin/Rscript
 old=getwd();
-basedir="/home/peipei/course/CSC547/experiment_docker_hadoop/output_launch_dockerhadoop";
+basedir="/home/peipei/course/CSC547/experiment_docker_hadoop/output_launch_vmhadoop";
 setwd(basedir);
 
-#file_patterns=c("output_empty.txt.*.dat$","output_empty_2.txt.*.dat$","output_empty_3.txt.*.dat$")
-file_patterns=c("output_launch_dockerhadoop_1.txt.*.dat$","output_launch_dockerhadoop_2.txt.*.dat$","output_launch_dockerhadoop_3.txt.*.dat$")
+file_patterns=c("output_launch_vmhadoop1.txt.*.dat$","output_launch_vmhadoop2.txt.*.dat$","output_launch_vmhadoop3.txt.*.dat$")
 XC=list();
 
 for(file_pattern in file_patterns){
@@ -27,7 +26,7 @@ for(col_num in 1:length(X)){
   name=data_files[col_num];
   name1=strsplit(name,"txt.")[[1]][2];
   # name=paste("output_empty",name1,sep=".");
-  name=paste("output_launch_dockerhadoop",name1,sep=".");
+  name=paste("output_launch_vmhadoop",name1,sep=".");
   
   #print(col_num)
   value1=as.vector(XC[[1]][[col_num]]);
@@ -53,13 +52,13 @@ for(col_num in 1:length(X)){
   }
   
   #x_axis=seq(0,28,2);
-  x_axis=seq(0,58,2);
+  x_axis=seq(0,118,2);
   
   # postscript(paste(getwd(),paste(name,"eps",sep="."),sep="/"));
   png(paste(getwd(),paste(name,"png",sep="."),sep="/"));
   # print(average)
   # print(value1)
-  plot(x=x_axis,y=NULL,ylim=c(v_min,v_max),type="n",main="Overhead of launching Hadoop inside Docker container",xlab="time(seconds)",ylab=metrics_meaning[[name1]],col="black");
+  plot(x=x_axis,y=NULL,ylim=c(v_min,v_max),type="n",main="Overhead of launching Hadoop inside VM",xlab="time(seconds)",ylab=metrics_meaning[[name1]],col="black");
   
   points(x=x_axis,y=average,type="p",pch=4,cex=0.4,col="black");
   lines(x=x_axis,y=average,col="black",lwd=2);
@@ -78,4 +77,4 @@ output_launch_dockerhadoop_null_metric=null_metric;
 output_launch_dockerhadoop_metrics=metrics;
 setwd(old);
 
-XC_dockerhadoop=XC;
+XC_vmhadoop=XC;
