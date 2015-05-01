@@ -20,7 +20,7 @@ sample=1;
 x_cpu=as.vector(XC_vmhadoop[[sample]][[cnames_vm_cpu[sample]]]);
 y_mem=as.vector(XC_vmhadoop[[sample]][[cnames_vm_mem[sample]]]);
 
-plot(x=NULL,y=NULL,mai="Overhead comparision of launching Docker container and VM",xlab="Percentage of CPU usage(%)",ylab="Percentage of MEM usage(%)",xlim=range(0:60),ylim=range(20:60));
+plot(x=NULL,y=NULL,mai="Overhead comparison of starting Hadoop in Docker container and VM",xlab="Percentage of CPU usage(%)",ylab="Percentage of MEM usage(%)",xlim=range(0:60),ylim=range(20:60));
 points(x_cpu,y_mem,type="p",pch=8,cex=0.4,col="blue");
 
 sample=2;
