@@ -15,6 +15,16 @@ to record the execution time of launching Docker container and starting Hadoop, 
 
 We did 4 times of stress experiment, stressing 0,4,6,8 CPU cores so the the available CPU cores are 8,4,2,0. All recorded execution timestamp are in the subdirectories of “stress_docker”. nostress_start8 means stressing 0 CPU cores, cpu4_stress_start8 means stressing 4 CPU cores, cpu6_stress_start8 means stressing 6 CPU cores, and CPU8_stress_start8 means stressing 8 CPU cores.
 
+The calculated execution time duration is listed in the spreadsheet strees_docker/stress_cpu_time.ods.
+
+To note that stressing 8 CPU cores will prevent the execution of Teragen MapReduce job. So use the command 
+for i in {1..8};do  date>output_$i&&docker run sequenceiq/hadoop-docker:2.6.0 sh -c 'etc/bootstrap.sh&& date' >>output_$i &  done;
+would avoid executing MapReduce job.
+
+stress_cpu.R use the execution time to do the exponential regression and to plot figure stress_docker/stress_cpu.png.
+
+
+
 The left 6 experiments use “sar” to evaluate the overhead. Specifically, the folder output_empty is to evaluate the overhead of “sar” tool; output_launch_docker is to evaluate the overhead of launching a Docker container; output_launch_dockerhadoop is to to evaluate the overhead of launching a Docker container and starting Hadoop inside the Docker container; output_launch_dockerhadoopprogram is to evaluate the overhead of launching a Docker container, starting Hadoop and running a MapReduce job Teragen; output_launch_vm is to evaluate the overhead of launching a VM; output_lauch_vmhadoop is to evaluate the overhead of launching a VM and starting Hadoop inside the VM. Because of lacking of enough available resources, running the MapReduce job Teragen fails in the VM.
 
 To use “sar”, sysstat package has to be first installed. Here are commands to install sysstat.
@@ -35,11 +45,3 @@ parse_output_output_empty.R, parse_output_output_launch_docker.R, parse_output_o
 compare_docker_vm.R and compare_docker_vm_hadoop.R are the R scripts to compare the overhead of VM to Docker container. These two scripts use variables created in the parse*.R scripts and should only be executed after all the parse*.R have been executed. docker_vm.png and docker_vm_hadoop.png are the generated two figures.
 
 Not all the metrics are impacted by Docker or VM. The selected_png folder selected the figures that are most interesting.
-
-The calculated execution time duration is listed in the spreadsheet strees_docker/stress_cpu_time.ods.
-
-To note that stressing 8 CPU cores will prevent the execution of Teragen MapReduce job. So use the command 
-for i in {1..8};do  date>output_$i&&docker run sequenceiq/hadoop-docker:2.6.0 sh -c 'etc/bootstrap.sh&& date' >>output_$i &  done;
-would avoid executing MapReduce job.
-
-stress_cpu.R use the execution time to do the exponential regression and to plot figure stress_docker/stress_cpu.png.
