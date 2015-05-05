@@ -21,14 +21,19 @@ name="stress_cpu";
 png(paste(getwd(),paste(name,"png",sep="."),sep="/"));
 plot(x=NULL,y=NULL,mai="Linear regression of launching 8 Docker containers and running Hadoop",xlab="Number of Stressed CPU Cores",ylab="Execution time(seconds)",xlim=range(0:9),ylim=range(0:450));
 
+
+f <- function(x,a,b) {a * exp(b * x)}
+
 points(x_hadoop,hadoop_stress,type="p",pch=8,cex=0.4,col="blue");
 #reg1<-lm(hadoop_stress~x_hadoop);
-reg1<-nls(hadoop_stress~exp(b*x_hadoop),start=list(b=1.3));
+#reg1<-nls(hadoop_stress~exp(b*x_hadoop),start=list(b=1.3));
+reg1<-nls(hadoop_stress~f(x_hadoop,a,b),start=c(a=1, b=1));
 abline(reg1,col="blue");
 
 points(x_job,job_stress,type="p",pch=3,cex=0.4,col="red");
 #reg2<-lm(job_stress~x_job);
-reg2<-nls(job_stress~exp(a*x_job),start=list(a=1.3));
+#reg2<-nls(job_stress~exp(a*x_job),start=list(a=1.3));
+reg2<-nls(job_stress~f(x_job,a,b),start=c(a=1, b=1));
 abline(reg2,col="red");
 
 legend("top",horiz=FALSE,legend=c("running MapReduce job Teragen inside the Docker container","launching 8 Docker containers and starting Hadoop"), pch=c(3,8), col=c("red","blue"))
