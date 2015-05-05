@@ -1,0 +1,7 @@
+Tue May  5 12:58:33 EDT 2015
+/
+Starting namenodes on [fa42488123ca]
+Starting secondary namenodes [0.0.0.0]
+starting yarn daemons
+starting resourcemanager, logging to /usr/local/hadoop/logs/yarn--resourcemanager-fa42488123ca.out
+Tue May  5 13:00:46 EDT 2015

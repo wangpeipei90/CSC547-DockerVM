@@ -1,0 +1,12 @@
+Tue May  5 12:58:33 EDT 2015
+/
+Starting sshd: [  OK  ]
+Starting namenodes on [f9a762194e79]
+f9a762194e79: starting namenode, logging to /usr/local/hadoop/logs/hadoop-root-namenode-f9a762194e79.out
+localhost: starting datanode, logging to /usr/local/hadoop/logs/hadoop-root-datanode-f9a762194e79.out
+Starting secondary namenodes [0.0.0.0]
+0.0.0.0: starting secondarynamenode, logging to /usr/local/hadoop/logs/hadoop-root-secondarynamenode-f9a762194e79.out
+starting yarn daemons
+starting resourcemanager, logging to /usr/local/hadoop/logs/yarn--resourcemanager-f9a762194e79.out
+localhost: starting nodemanager, logging to /usr/local/hadoop/logs/yarn-root-nodemanager-f9a762194e79.out
+Tue May  5 13:04:41 EDT 2015
