@@ -19,7 +19,7 @@ x_job=c(rep(0,each=8),rep(4,each=8),rep(6,each=8));
 
 name="stress_cpu";
 png(paste(getwd(),paste(name,"png",sep="."),sep="/"));
-plot(x=NULL,y=NULL,mai="Exponential regression of launching 8 Docker containers and running Hadoop",xlab="Number of Stressed CPU Cores",ylab="Execution time(seconds)",xlim=range(0:9),ylim=range(0:550));
+plot(x=NULL,y=NULL,mai="Exponential regression of experiment with 8 Docker containers",xlab="Number of Stressed CPU Cores",ylab="Execution time(seconds)",xlim=range(0:9),ylim=range(0:550));
 
 
 f <- function(x,a,b) {a * exp(b * x)}
@@ -45,6 +45,6 @@ reg2<-nls(job_stress~f(x_job,a,b),start=c(a=1, b=1));
 co <- coef(reg2);
 curve(f(x, a=co[1], b=co[2]), add = TRUE);
 
-legend("bottom",horiz=FALSE,legend=c("running MapReduce job Teragen inside the Docker container","launching 8 Docker containers and starting Hadoop"), pch=c(3,8), col=c("red","blue"))
+legend("top",horiz=FALSE,legend=c("running MapReduce job Teragen inside the Docker container","launching 8 Docker containers and starting Hadoop"), pch=c(3,8), col=c("red","blue"))
 
 dev.off();
