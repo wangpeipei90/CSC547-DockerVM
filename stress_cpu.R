@@ -19,7 +19,7 @@ x_job=c(rep(0,each=8),rep(4,each=8),rep(6,each=8));
 
 name="stress_cpu";
 png(paste(getwd(),paste(name,"png",sep="."),sep="/"));
-plot(x=NULL,y=NULL,mai="Exponential regression of launching 8 Docker containers and running Hadoop",xlab="Number of Stressed CPU Cores",ylab="Execution time(seconds)",xlim=range(0:9),ylim=range(0:500));
+plot(x=NULL,y=NULL,mai="Exponential regression of launching 8 Docker containers and running Hadoop",xlab="Number of Stressed CPU Cores",ylab="Execution time(seconds)",xlim=range(0:9),ylim=range(0:550));
 
 
 f <- function(x,a,b) {a * exp(b * x)}
