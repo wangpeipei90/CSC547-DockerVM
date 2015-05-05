@@ -23,7 +23,7 @@ plot(x=NULL,y=NULL,mai="Linear regression of launching 8 Docker containers and r
 
 points(x_hadoop,hadoop_stress,type="p",pch=8,cex=0.4,col="blue");
 #reg1<-lm(hadoop_stress~x_hadoop);
-reg1<-lm(hadoop_stress~x_hadoop);
+reg1<-nls(hadoop_stress~x_hadoop);
 abline(reg1,col="blue");
 
 points(x_job,job_stress,type="p",pch=3,cex=0.4,col="red");
