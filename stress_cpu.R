@@ -45,6 +45,6 @@ reg2<-nls(job_stress~f(x_job,a,b),start=c(a=1, b=1));
 co <- coef(reg2);
 curve(f(x, a=co[1], b=co[2]), add = TRUE);
 
-legend("top",horiz=FALSE,legend=c("running MapReduce job Teragen inside the Docker container","launching 8 Docker containers and starting Hadoop"), pch=c(3,8), col=c("red","blue"))
+legend("bottom",horiz=FALSE,legend=c("running MapReduce job Teragen inside the Docker container","launching 8 Docker containers and starting Hadoop"), pch=c(3,8), col=c("red","blue"))
 
 dev.off();
