@@ -19,7 +19,7 @@ x_job=c(rep(0,each=8),rep(4,each=8),rep(6,each=8));
 
 name="stress_cpu";
 png(paste(getwd(),paste(name,"png",sep="."),sep="/"));
-plot(x=NULL,y=NULL,mai="Linear regression of launching 8 Docker container and running Hadoop",xlab="Number of Stressed CPU Cores",ylab="Execution time",xlim=range(0:9),ylim=range(0:450));
+plot(x=NULL,y=NULL,mai="Linear regression of launching 8 Docker containers and running Hadoop",xlab="Number of Stressed CPU Cores",ylab="Execution time",xlim=range(0:9),ylim=range(0:450));
 
 points(x_hadoop,hadoop_stress,type="p",pch=8,cex=0.4,col="blue");
 reg1<-lm(hadoop_stress~x_hadoop);
